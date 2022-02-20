@@ -109,6 +109,9 @@ a {
   .badge--secondary {
     font-size: 1.2rem;
   }
+  .badge--primary {
+    font-size: 1.2rem;
+  }
 }
 /* Lists */
 .list {
@@ -537,7 +540,7 @@ a {
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 .container {
-  max-width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 /* Navigation bars */
