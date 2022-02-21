@@ -111,9 +111,9 @@ a {
   .badge {
     font-size: 1.5rem;
   }
-  .badge--secondary {
+  /* .badge--secondary {
     font-size: 1.2rem;
-  }
+  }  Once in large display interferes with the buttons in plan cards*/
   .badge--primary {
     font-size: 1.2rem;
   }
@@ -183,7 +183,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -267,6 +267,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 .input-group .btn {
   margin: 4px;
@@ -463,6 +464,8 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 5px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .callout--primary {
   background: var(--color-primary);
@@ -632,8 +635,9 @@ a {
   max-width: 670px;
 }
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -751,4 +755,7 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+.callout-signup {
+  transform: translateY(5rem);
 }
